@@ -1,0 +1,98 @@
+
+img{
+    object-fit: cover;
+    width: 35%;
+    height: 42%;
+    vertical-align: middle;
+}
+
+.matGridDiv{
+    margin-bottom: 2%!important;
+    background-color: white;
+    padding: 1vw;
+}
+.imgDiv{
+    padding:0.5vw;
+    background-color: #eee;
+    text-align: center;
+    margin-top: 2vw;
+}
+.row div:nth-child(1){
+    font-weight: bold;
+    font-size:0.9vw;
+}
+.row div:nth-child(2){
+    font-size:0.9vw;
+}
+span{
+    font-weight: bold;
+    text-align: left;
+    color: blue;
+}
+
+/* For mobile phones: */
+/* 
+
+*/
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .secondDiv {
+    float: left;
+    height: 22em;
+    width: 22.5%;
+    padding: 1vw;
+   margin: 0.5vw;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* On screens that are 700px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 700px) {
+    .secondDiv {
+      width: 100%!important;
+      overflow-y: auto;
+    }
+  }
+  /* On screens that are 700px wide or less, go from four columns to two columns */
+  @media screen and (min-width: 701px) and (max-width: 1024px)  {
+    .secondDiv {
+        width: 42%!important;
+        margin-left: 4.2vw!important;
+        overflow-y: auto;
+    }
+  }
+ .noDataDiv{
+     background-color: white;
+ }
+ .noDataDiv div{
+    font-size: 1.5vw;
+    padding: 1vw;
+    text-align: center;
+ }
+ 
+  @media screen and (min-width: 1025px) {
+    .secondDiv{
+        float: left!important;
+        height: 22em!important;
+        width: 22.5%!important;
+        padding: 1vw!important;
+       margin: 0.5vw!important;
+    }
+  }
+  /* @media screen and (min-width: 1025px)  {
+    .secondDiv{
+        float: left!important;
+        height: 22em!important;
+        width: 22.5%!important;
+        padding: 1vw!important;
+       margin: 0.5vw!important;
+    }
+  } */

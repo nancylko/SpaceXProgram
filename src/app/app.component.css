@@ -1,0 +1,23 @@
+.panelRight{
+    padding-left: 0px!important;
+    padding: 2vw;
+    padding-top: 0px!important;
+}
+.panelLeft{
+    padding: 2vw;
+    padding-top: 0px!important;
+}
+.col-md-12{
+    font-size: 2vw;
+    padding: 1vw;
+    margin-left: 1vw;
+}
+
+@media (min-width: 992px) and (max-width: 1024px){
+.col-md-3 {
+    width: 100%!important;
+}}
+@media (min-width: 992px) and (max-width: 1024px){
+    .col-md-9 {
+        width: 105%!important;
+    }}

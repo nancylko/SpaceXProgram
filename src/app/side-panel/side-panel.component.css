@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+  }
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .sidePanel{
+      background-color: white;
+  }
+  table{
+      width: 90%;
+      text-align: center;
+  }
+  button{
+    padding: 0.25vw;
+    border-width: 0;
+    background-color: #b1f189ab;
+    margin: 4.5%;
+    width: 7em;
+    border-radius: 0.2vw;
+  }
+  button:hover{
+      background-color: #61f306ab;
+  }
+  button:focus{
+      background-color: #61f306ab;
+  }
+  label{
+    padding: 0.5vw;
+    font-size: 1.25vw;
+  }
+  .filterValues{
+    border-bottom: 0.1vw solid lightgrey;
+  }
+  @media screen and (max-width: 700px) {
+    mat-card {
+      width: 100%!important;
+      _overflow-y: auto;
+    }
+  }
+  @media screen and (min-width: 700px) and (max-width: 1024px)  {
+    mat-card{
+        width: 100%!important;
+        _margin-left: 4.2vw!important;
+        _overflow-y: auto;
+    }
+  }
+   @media screen and (min-width: 1024px) {
+    mat-card{
+        float: left!important;
+        height: 22em!important;
+        width: 22.5%!important;
+        padding: 1vw!important;
+       margin: 0.5vw!important;
+    }
+  }
